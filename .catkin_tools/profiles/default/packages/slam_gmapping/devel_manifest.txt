@@ -1,0 +1,2 @@
+slam_gmapping/slam_gmapping
+/home/ptroc/Desktop/learning_map/devel/.private/slam_gmapping/cmake.lock /home/ptroc/Desktop/learning_map/devel/./cmake.lock

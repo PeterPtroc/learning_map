@@ -1,0 +1,14 @@
+<launch>
+  <!-- 设置参数 use_sim_time 为 true -->
+  <param name="use_sim_time" value="true"/>
+
+  <node pkg="static_transform_publisher" type="node" name="static_transform_publisher_node" output="screen"/>
+
+  <!-- 启动hector-->
+  <include file="$(find hector_slam_launch)/launch/tutorial.launch"/>
+
+  <!-- 播放 jiantu2.bag 文件 -->
+  <!-- 额，得手动播放，不知道写在文件里为什么不行 -->
+
+
+</launch>

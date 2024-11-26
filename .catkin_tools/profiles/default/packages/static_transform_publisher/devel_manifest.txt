@@ -1,0 +1,6 @@
+static_transform_publisher
+/home/ptroc/Desktop/learning_map/devel/.private/static_transform_publisher/cmake.lock /home/ptroc/Desktop/learning_map/devel/./cmake.lock
+/home/ptroc/Desktop/learning_map/devel/.private/static_transform_publisher/share/static_transform_publisher/cmake/static_transform_publisherConfig.cmake /home/ptroc/Desktop/learning_map/devel/share/static_transform_publisher/cmake/static_transform_publisherConfig.cmake
+/home/ptroc/Desktop/learning_map/devel/.private/static_transform_publisher/share/static_transform_publisher/cmake/static_transform_publisherConfig-version.cmake /home/ptroc/Desktop/learning_map/devel/share/static_transform_publisher/cmake/static_transform_publisherConfig-version.cmake
+/home/ptroc/Desktop/learning_map/devel/.private/static_transform_publisher/lib/static_transform_publisher/node /home/ptroc/Desktop/learning_map/devel/lib/static_transform_publisher/node
+/home/ptroc/Desktop/learning_map/devel/.private/static_transform_publisher/lib/pkgconfig/static_transform_publisher.pc /home/ptroc/Desktop/learning_map/devel/lib/pkgconfig/static_transform_publisher.pc
