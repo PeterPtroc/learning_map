@@ -1,0 +1,15 @@
+[31mCMake Error at /opt/anaconda3/envs/ROS/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+  Could not find a package configuration file provided by "rosconsole" with
+  any of the following names:
+
+    rosconsoleConfig.cmake
+    rosconsole-config.cmake
+
+  Add the installation prefix of "rosconsole" to CMAKE_PREFIX_PATH or set
+  "rosconsole_DIR" to a directory containing one of the above files.  If
+  "rosconsole" provides a separate development package or SDK, be sure it has
+  been installed.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:4 (find_package)
+
+[0m

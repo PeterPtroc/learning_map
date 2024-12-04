@@ -1,0 +1,46 @@
+Not searching for unused variables given on the command line.
+[36m--[0m The C compiler identification is AppleClang 16.0.0.16000026
+[36m--[0m The CXX compiler identification is AppleClang 16.0.0.16000026
+[36m--[0m Detecting C compiler ABI info
+[36m--[0m Detecting C compiler ABI info - done
+[36m--[0m Check for working C compiler: /Library/Developer/CommandLineTools/usr/bin/cc - skipped
+[36m--[0m Detecting C compile features
+[36m--[0m Detecting C compile features - done
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Check for working CXX compiler: /Library/Developer/CommandLineTools/usr/bin/c++ - skipped
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /Users/mac/Desktop/learning_map/devel/.private/cv_bridge
+[36m--[0m Using CMAKE_PREFIX_PATH: /Users/mac/Desktop/learning_map/devel
+[36m--[0m This workspace overlays: /Users/mac/Desktop/learning_map/devel
+[36m--[0m Found PythonInterp: /opt/anaconda3/envs/ROS/bin/python (found version "3.9.18")
+[36m--[0m Using PYTHON_EXECUTABLE: /opt/anaconda3/envs/ROS/bin/python
+[36m--[0m Using default Python package layout
+[36m--[0m Found PY_em: /opt/anaconda3/envs/ROS/lib/python3.9/site-packages/em.py
+[36m--[0m Using empy: /opt/anaconda3/envs/ROS/lib/python3.9/site-packages/em.py
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /Users/mac/Desktop/learning_map/build/cv_bridge/test_results
+[36m--[0m Found gtest: gtests will be built
+[36m--[0m Using Python nosetests: /opt/anaconda3/envs/ROS/bin/nosetests-3.9
+[36m--[0m catkin 0.8.10
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m Could NOT find rosconsole (missing: rosconsole_DIR)
+[36m--[0m Could not find the required component 'rosconsole'. The following CMake error indicates that you either need to install the package with the same name or change your environment so that it can be found.
+[31mCMake Error at /opt/anaconda3/envs/ROS/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+  Could not find a package configuration file provided by "rosconsole" with
+  any of the following names:
+
+    rosconsoleConfig.cmake
+    rosconsole-config.cmake
+
+  Add the installation prefix of "rosconsole" to CMAKE_PREFIX_PATH or set
+  "rosconsole_DIR" to a directory containing one of the above files.  If
+  "rosconsole" provides a separate development package or SDK, be sure it has
+  been installed.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:4 (find_package)
+
+[0m
+[36m--[0m Configuring incomplete, errors occurred!

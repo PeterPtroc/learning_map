@@ -16,4 +16,9 @@
     <arg name="map_file_path" value="$(arg geotiff_map_file_path)"/>
   </include>
 
+  <!-- 播放 jiantu2.bag 文件 -->
+  <node pkg="rosbag" type="play" name="rosbag_play" args="--clock $(find gmapping)/bag/jiantu2.bag" output="screen"/>
+
+
+
 </launch>

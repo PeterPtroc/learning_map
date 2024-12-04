@@ -1,0 +1,11 @@
+<launch>
+  <!-- 设置参数 use_sim_time 为 true -->
+  <param name="use_sim_time" value="true"/>
+
+  <node pkg="static_transform_publisher" type="node" name="static_transform_publisher_node" output="screen"/>
+
+  <!-- 启动hector-->
+  <include file="$(find hector_slam_launch)/launch/tutorial.launch"/>
+
+
+</launch>
