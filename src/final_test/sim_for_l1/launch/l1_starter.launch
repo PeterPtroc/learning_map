@@ -1,0 +1,7 @@
+<launch>
+  <node name="l1_controller" pkg="sim_for_l1" type="L1Controller" output="screen" />
+
+  <node name="odom_publisher" pkg="sim_for_l1" type="odom_publisher" output="screen" />
+
+  <node name="path_publisher" pkg="sim_for_l1" type="path_publisher" output="screen" />
+</launch>
